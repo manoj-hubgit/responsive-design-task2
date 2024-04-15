@@ -1,0 +1,116 @@
+:root {
+  --clr-dark: rgb(27, 28, 29);
+  --clr-light: rgb(255, 255, 255);
+}
+.nav-section {
+  background-color: var(--clr-dark);
+  color: var(--clr-light) !important;
+}
+.header-main {
+  text-align: center;
+  background-color: var(--clr-dark);
+  color: var(--clr-light);
+  height: 25rem;
+  padding-top: 8rem;
+}
+.hamburger {
+  color: var(--clr-light) !important;
+}
+.nazrulImage img {
+  height: 60% !important;
+}
+.amazon {
+  background-color: rgb(242, 113, 28) !important;
+  color: aliceblue !important;
+}
+.wikipedia {
+  background-color: rgb(224, 225, 226) !important;
+  color: rgb(113, 140, 155) !important;
+}
+.buttons {
+  margin-top: -11rem !important;
+  text-align: center;
+}
+.quote {
+  text-align: center;
+  background-color: rgb(27, 28, 29);
+  padding: 1.5rem;
+  color: aliceblue;
+  margin-top: -4rem;
+  font-size: 2rem;
+}
+
+.divider-text {
+  position: relative;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.divider-text:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+}
+
+.divider-text span {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  z-index: 9;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.cards {
+  width: 15rem !important;
+  font-size: 0.8rem;
+  padding-bottom: 2rem !important;
+}
+
+.cardex {
+  padding-bottom: 1.45rem;
+}
+.footer-part {
+  background-color: black;
+  color: var(--clr-light);
+  font-size: 0.7rem;
+}
+.footer-part h3 {
+  font-size: 0.9rem;
+}
+.footer-row {
+  margin-left: 20% !important;
+}
+
+@media screen and (max-width: 769px) {
+  .header-main {
+    padding-top: 10% !important;
+    height: 10rem;
+  }
+  .cardsrow {
+    display: block !important;
+    text-align: center !important;
+    margin-left: 16% !important;
+  }
+  .nazrulImage img {
+    margin-left: 5% !important;
+  }
+  .footer-part {
+    padding-top: 1rem !important;
+    text-align: right !important;
+    margin-top: 2rem !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .buttons {
+    margin-top: -9% !important;
+  }
+  .quote {
+    margin-top: 3% !important;
+  }
+}
